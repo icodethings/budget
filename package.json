@@ -1,0 +1,23 @@
+{
+  "name": "budget-js",
+  "version": "0.1.0",
+  "description": "A JS library that splits up your money into different budgets",
+  "main": "budget.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icodethings/budget-js.git"
+  },
+  "keywords": [
+    "money",
+    "budget"
+  ],
+  "author": "Matthew Vandenbossche <matt@icodethin.gs>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icodethings/budget-js/issues"
+  },
+  "homepage": "https://github.com/icodethings/budget-js#readme"
+}
