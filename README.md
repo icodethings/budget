@@ -1,6 +1,9 @@
 # budget-js
 A JS library that splits up your money into different budgets every week.
 
+Right now this is built around the idea of weekly budgets. If you are planing on using this to split up your fortnightly
+pay, just divide the amount by 2 every odd or even week number.
+
 ## Example
 
 ```
