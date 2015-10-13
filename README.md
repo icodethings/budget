@@ -4,7 +4,7 @@ A JS library that splits up your money into different budgets every week.
 ## Example
 
 ```
-var BudgetJS = require('./budget.js');
+var BudgetJS = require('budget-js');
 
 var budget = new BudgetJS();
 
