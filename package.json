@@ -1,6 +1,6 @@
 {
   "name": "budget-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A JS library that splits up your money into different budgets",
   "main": "budget.js",
   "scripts": {

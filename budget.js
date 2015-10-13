@@ -124,7 +124,7 @@ Budget.prototype = {
 			var daysSince = utils.countCertainDays(utils.dayToInt(this.config.runDay), new Date(), budget.start);
 			var daysTill = utils.countCertainDays(utils.dayToInt(this.config.runDay), new Date(), budget.end);
 
-			if(daysSince < 0 || daysTill < 0){
+			if(daysSince > 0 || daysTill < 0){
 				// Skipping because it's not in the time period
 				return false;
 			}
