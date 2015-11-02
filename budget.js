@@ -129,7 +129,16 @@ Budget.prototype = {
 				return false;
 			}
 
-			var perWeek = Math.ceil(budget.amount / daysTill);
+			// If we aren't using the current value we have to spread is accross the entire time period
+			var perWeek = 0;
+
+			if(budget.useCurrentValue === false){
+				var totalDays = (-1 * daysSince) + daysTill;
+
+				perWeek = Math.ceil(budget.amount / totalDays);
+			}else{
+				perWeek = Math.ceil(budget.amount / daysTill);
+			}
 
 			if(perWeek <= this.amount){
 				this.amount = parseInt(this.amount - parseInt(perWeek));
