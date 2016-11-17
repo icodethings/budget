@@ -1,8 +1,8 @@
 {
   "name": "budget-js",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "A JS library that splits up your money into different budgets",
-  "main": "budget.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
